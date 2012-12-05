@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=Nokia BH 505 Bluetooth Headset
+# From Ubuntu's language-pack-kde-XX-base packages, version 9.04-20090413.
+Comment=Connect Nokia Bluetooth headset
+Exec=/usr/share/applications/Nokia-BH-505-headset
+Terminal=false
+Icon=/usr/share/applications/Nokia-BH-505-headset/nokia-bh-505.png
+Type=Application
+Categories=Bluetooth;Headphone;Nokia;
+TargetEnvironment=Unity

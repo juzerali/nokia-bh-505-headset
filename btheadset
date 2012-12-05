@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+hciconfig hci0 voice 0x0060
+pactl load-module module-alsa-sink device=btheadset
+pactl load-module module-alsa-source device=btheadset

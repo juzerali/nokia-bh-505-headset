@@ -1,0 +1,15 @@
+Source: nokia-bh
+Section: headset
+Priority: extra
+Maintainer: Juzer Ali <er.juzerali@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), pactl
+Standards-Version: 3.9.3
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/nokia-bh.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/nokia-bh.git;a=summary
+
+Package: nokia-bh
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Add nokia bluetooth headset to your sound settings.
+ Add nokia bluetooth headset to your sound settings.
